@@ -1,0 +1,27 @@
+{
+  "name": "get-npm-i",
+  "version": "1.0.0",
+  "description": "Returns install dependencies command by reading file",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "get-npm-i": "cli.js"
+  },
+  "keywords": [
+    "npm",
+    "update",
+    "install"
+  ],
+  "author": "Ekansh Jain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejekanshjain/get-npm-i.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ejekanshjain/get-npm-i/issues"
+  },
+  "homepage": "https://github.com/ejekanshjain/get-npm-i#readme"
+}
