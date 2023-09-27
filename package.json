@@ -2,12 +2,12 @@
   "name": "@ejekanshjain/get-npm-i",
   "version": "1.0.0",
   "description": "Returns install dependencies command by reading file",
-  "main": "cli.js",
+  "main": "cli.ts",
   "scripts": {
-    "start": "node ."
+    "start": "ts-node cli.ts"
   },
   "bin": {
-    "get-npm-i": "cli.js"
+    "get-npm-i": "cli.ts"
   },
   "keywords": [
     "npm",
