@@ -56,6 +56,4 @@ const main = async (): Promise<void> => {
       `Install Dependencies Command:\nnpm i ${dependencies.join(' ')}\n`
     );
 };
-console.log('ts works fine');
-
 main();
