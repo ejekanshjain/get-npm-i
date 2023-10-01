@@ -2,12 +2,14 @@
   "name": "@ejekanshjain/get-npm-i",
   "version": "1.0.0",
   "description": "Returns install dependencies command by reading file",
-  "main": "cli.js",
+  "main": "cli.ts",
   "scripts": {
-    "start": "node ."
+    "start": "node dist/cli.js",
+    "build": "tsc",
+    "prestart": "npm run build"
   },
   "bin": {
-    "get-npm-i": "cli.js"
+    "get-npm-i": "dist/cli.js"
   },
   "keywords": [
     "npm",
@@ -23,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/ejekanshjain/get-npm-i/issues"
   },
-  "homepage": "https://github.com/ejekanshjain/get-npm-i#readme"
+  "homepage": "https://github.com/ejekanshjain/get-npm-i#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
 }
